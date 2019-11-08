@@ -3,7 +3,7 @@
     <v-layout row wrap>
       <v-flex d-flex xs12 md6>
         <v-card color="red darken-3" dark>
-          <v-img class="img" src="https://i.ibb.co/rFNfxXN/INT-Edvincdsc-Milos.png" alt="Image representating the author"></v-img>
+          <v-img :src="require('../assets/me.jpg')"></v-img>
         </v-card>
       </v-flex>
       <v-flex d-flex xs12 md6>
@@ -25,7 +25,7 @@
     </v-layout>
     <div class="space"></div>
     <div class="buttons">
-      <v-btn dark color="red darken-3" class="btn" href="https://www.dropbox.com/s/vug5lo1si6bv17q/CV.pdf?dl=0" target="_blank">CV</v-btn>
+      <v-btn dark color="red darken-3" class="btn" href="https://www.dropbox.com/s/nt522j3nujc7qg6/CV.pdf?dl=0" target="_blank">CV</v-btn>
       <v-btn dark color="red darken-3" class="btn" href="https://www.dropbox.com/s/d3j5g7n3evelxga/business-card.pdf?dl=0" target="_blank">Business Card</v-btn>
     </div>
     <div class="contacts">
